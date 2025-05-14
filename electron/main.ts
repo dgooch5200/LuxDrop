@@ -34,10 +34,16 @@ function createWindow() {
       preload: path.join(__dirname, 'preload.mjs'),
 
     },
-    fullscreenable: true,
-    fullscreen: true,
+    frame: true,
+    // fullscreenable: true,
+    // fullscreen: true,
+    autoHideMenuBar: false,
+
+
 
   })
+
+  win.maximize()
 
   // Test active push message to Renderer-process.
   win.webContents.on('did-finish-load', () => {
