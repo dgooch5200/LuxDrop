@@ -26,7 +26,7 @@ const MyComponent = observer(() => {
     const [testStarted, setTestStarted] = useState(false);
     const intervalIdRef = useRef<number | null>(null);
     const timeoutIdRef = useRef<number | null>(null);
-    const [ipAddress, setIpAddress] = useState<string>("10.0.0.201");
+    const [ipAddress, setIpAddress] = useState<string>("192.168.2.123");
 
     const [testDuration, setTestDuration] = useState<number>(1); // in minutes
     const [pollingInterval, setPollingInterval] = useState<number>(1); // in seconds

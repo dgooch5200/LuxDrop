@@ -1,7 +1,7 @@
 // at top of file
 import fetch from 'node-fetch';    // or: const fetch = require('node-fetch');
 
-const apiUrl = 'http://192.168.2.201/setip';
+const apiUrl = 'http://10.0.0.201/setip';
 const postData = {
     ip:'192.168.2.123'
 };
