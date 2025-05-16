@@ -1,0 +1,77 @@
+/* App.css */
+.App {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the App container */
+    padding: 20px; /* Add some padding around the content */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; /* Stack labels and inputs vertically */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 15px; /* Add spacing between input groups */
+}
+
+.input-group label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold;
+}
+
+.input-group input[type="number"],
+.input-group input[type="string"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px; /* Adjust input width */
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; /* Spread buttons evenly */
+    margin-bottom: 20px;
+}
+
+.button-group button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #3e8e41;
+}
+
+.chartDiv {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 20px; /* Add space below the chart */
+}
+
+h1 {
+    color: #2c3e50; /* A darker heading color */
+    margin-bottom: 20px; /* More space under heading */
+}
+
+h2 {
+    color: #34495e; /* Slightly darker than h1 */
+    margin-top: 30px; /* Space above the heading */
+    margin-bottom: 15px;
+}
