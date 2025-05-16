@@ -33,3 +33,16 @@ export default {
 ## David's notes
 
 My notes here !!!!
+
+
+# Help 
+
+## here is something wrong 
+
+- try this 
+- step 2 
+- 3
+- 4
+- 5
+- 6
+
